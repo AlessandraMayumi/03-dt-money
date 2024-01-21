@@ -1,4 +1,7 @@
 ## Create project
+
+Vite boilerplate project.
+
 ```sh
 $ npm create vite@latest
 ✔ Project name: … 03-dt-money
@@ -7,6 +10,19 @@ $ npm create vite@latest
 
 $ cd 03-dt-money
 $ npm i
+```
+
+## Github repository
+
+Create a github repositry and push local project.
+
+```sh
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:AlessandraMayumi/03-dt-money.git
+git push -u origin main
 ```
 
 # React + TypeScript + Vite
