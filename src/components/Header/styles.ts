@@ -20,6 +20,7 @@ export const HeaderContent = styled.div`
 export const NewTransactionButton = styled.button`
     height: 50px;
     border: 0;
+    color: ${props => props.theme['white']};
     background: ${props => props.theme['green-500']};
     font-weight: bold;
     padding: 0 1.25rem;

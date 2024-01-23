@@ -1,7 +1,7 @@
+import { Summary } from "../../components/Summary";
+
 export function Transactions() {
     return (
-        <div>
-            Transactions
-        </div>
+        <Summary />
     )
 }
